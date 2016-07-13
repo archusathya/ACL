@@ -1,0 +1,2 @@
+var query = gw.api.database.Query.make(Group).compare("Name",Equals, "ConfidentialGroup").select().first()
+print(query)
